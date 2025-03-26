@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+/* Soft Pastel Gradient Theme */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FDFCFB, #E2D1C3, #D4EAC8, #F9E79F); /* Soft pastel gradient */
+    color: #2F4F4F; /* Dark Slate Gray */
+    animation: gradientBG 12s ease infinite;
+    background-size: 400% 400%;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background: linear-gradient(to right, #B7D1EA, #A2C7E5); /* Light Blue gradient */
+    color: #2F4F4F;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+}
+
+/* Round profile picture with soft border */
+.profile-picture {
+    width: 90px; 
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    border: 5px solid #FFDBAC; /* Soft Peach border */
+    transition: 0.3s;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+    border-color: #A2C7E5; /* Light Blue glow */
+}
+
+nav {
+    background: #EAECEE; /* Light Gray */
+    color: #2F4F4F;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2F4F4F;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #A2C7E5; /* Light Blue hover effect */
+    transform: scale(1.1);
+}
+
+.section-content {
+    background: #FAF3E0; /* Light Beige */
+    color: #2F4F4F;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    text-align: justify;
+    transition: 0.3s;
+}
+
+.section-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(162, 199, 229, 0.4); /* Light Blue Glow */
+}
+
+.download-button {
+    background: linear-gradient(to right, #A2C7E5, #B7D1EA); /* Light Blue gradient */
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(162, 199, 229, 0.4);
+}
+
+.download-button:hover {
+    background: #FFD1DC; /* Soft Pink */
+    color: #2F4F4F;
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(255, 209, 220, 0.7); /* Soft Pink Glow */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #EAECEE; /* Light Gray */
+    color: #2F4F4F;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="header-content">
+
+<!-- Add your profile picture here -->
+
+<img src"=https://drive.google.com/file/d/1Uo3FE-ax2IzrRENFX7pV799hmVUj_SEc/view?usp=drivesdk.pdf"alt="Your Profile Picture" class="profile-picture">
+    <h1>RESHMASEN.B</h1>
+    <p>STUDENT</p>
+</div>
+</header>
+
+<nav>
+<ul>
+    <li><a href="#objective">OBJECTIVE</a></li>
+    <li><a href="#education">EDUCATION</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#resume">RESUME</a></li>
+</ul>
+</nav>
+
+<section id="objective">
+<div class="section-content">
+    <h2>OBJECTIVE</h2>
+    <p>Enthusiastic and detail-oriented Computer Science student with a strong foundation in programming and problem-solving. Seeking opportunities to apply technical skills and gain hands-on experience in software development and related fields.</p>
+</div>
+</section>
+
+<section id="education">
+<div class="section-content">
+    <h2>EDUCATION</h2>
+    <p>BSc. COMPUTER SCIENCE</p>
+    <p>Bishop Appasamy College of Arts and Science</p>
+    <p>Coimbatore, Tamil Nadu.</p>
+</div>
+</section>
+
+<section id="skills">
+<div class="section-content">
+    <h2>SKILLS</h2>
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Web Design</li>
+        <li>Linux</li>
+    </ul>
+</div>
+</section>
+
+<section id="projects">
+<div class="section-content">
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="#">Naan Mudhalvan Online Project 2025</a></li>
+    </ul>
+</div>
+</section>
+
+<section id="resume">
+<div class="section-content">
+    <center>
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1DrNdgF8ftpQOfN9kuYWmKblUVMB7SQE7/view?usp=drivesdk.pdf" target="_blank" class="download-button">Download CV</a>
+    </center>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2025 RESHMASEN.B</p>
+</footer>
+
+<script>
+// Smooth scrolling functionality
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
